@@ -1,5 +1,5 @@
-# job-application-optimizer
-A tool to optimze your resume, cover letter , cold messaging in accordance to the job description.
+# Job Application Optimizer
+## A tool to optimze your resume, cover letter, cold messaging in accordance to the job description.
 
 Reference for Gemini integration:
 ```https://ai.google.dev/tutorials/python_quickstart```
