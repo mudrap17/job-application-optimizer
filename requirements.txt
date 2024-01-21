@@ -4,8 +4,8 @@ streamlit
 streamlit_option_menu
 streamlit_extras
 PyPDF2
-langchain
 openai
 tiktoken
 faiss-cpu
 selenium
+google.generativeai
