@@ -8,4 +8,4 @@ openai
 tiktoken
 faiss-cpu
 selenium
-google.generativeai
+google
