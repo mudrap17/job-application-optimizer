@@ -4,8 +4,4 @@ streamlit
 streamlit_option_menu
 streamlit_extras
 PyPDF2
-openai
-tiktoken
-faiss-cpu
-selenium
 google
