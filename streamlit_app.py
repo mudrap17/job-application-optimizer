@@ -3,7 +3,6 @@ import numpy as np
 import streamlit as st
 from streamlit_option_menu import option_menu
 from PyPDF2 import PdfReader
-import seaborn as sns
 from resume_optimizer import llm_result,linkedin_jobs,cold_outreach,suggestions
 
 # Sidebar section
