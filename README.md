@@ -3,6 +3,8 @@
 It also helps you find the relevant job titles you should apply to according your resume. 
 And there is a industry and location based H1B approvals analysis for the year 2023.
 
+Get out the live app at: https://job-application-optimizer.streamlit.app/
+
 Instructions to run the code:
 ```
 pip install -r requirements.txt
