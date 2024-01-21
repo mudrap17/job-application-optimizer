@@ -54,7 +54,7 @@ if option == 'Job Industry Analysis':
     st.title('Job Industry Analysis')
     st.subheader('Explore the industry and prominent states according to 2023 H1B approvals')
     with st.spinner('Wait for it...'):
-      df = pd.read_excel('EmployerInformation.xlsx')
+      df = pd.read_excel('EmployerInformation.xlsx',engine='openpyxl')
     df = df[['Employer (Petitioner) Name','Industry (NAICS) Code','Initial Approval','Petitioner State']]
     option = st.selectbox("Select an industry", df['Industry (NAICS) Code'].unique(),index=None,placeholder="Select your industry")
     if option:
