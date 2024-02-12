@@ -6,3 +6,4 @@ streamlit_extras
 PyPDF2
 google-generativeai
 openpyxl
+serpapi
