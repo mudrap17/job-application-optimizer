@@ -8,7 +8,7 @@
 
 Get out the live app at: https://job-application-optimizer.streamlit.app/
 
-Instructions to run the code:
+Instructions to run the code on local machine:
 ```
 pip install -r requirements.txt
 streamlit run streamlit_app.py
