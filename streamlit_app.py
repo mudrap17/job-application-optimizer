@@ -103,8 +103,10 @@ if option == "Sample resume":
     if key is None:
         st.info("Enter your Gemini API key on your left please")
     else:
-        resume = sample_resume(job_desc, key)
-        st.write(resume)
+        get_resume = st.button("Get sample resume")
+        if get_resume:
+            resume = sample_resume(job_desc, key)
+            st.write(resume)
 
 
 if option == "Job Industry Analysis":
@@ -213,13 +215,21 @@ if option == "Project Suggestions":
     else:
         with tab1:
             job_desc = st.text_input(label="Give job description")
-            project = project_suggestions_job(job_desc, key)
-            st.write(project)
+            get_project_1 = st.button(
+                label="Get project suggestions for the above job description"
+            )
+            if get_project_1:
+                project = project_suggestions_job(job_desc, key)
+                st.write(project)
         with tab2:
             skills = st.text_input(label="Give list of skills")
             domain = st.text_input(label="Give the domain name(sustainability,finance)")
-            project = project_suggestions_skill(skills, domain, key)
-            st.write(project)
+            get_project_2 = st.button(
+                label="Get project suggestions for the above skills in given domain"
+            )
+            if get_project_2:
+                project = project_suggestions_skill(skills, domain, key)
+                st.write(project)
 
 if option == "Roadmap to skills":
     st.title("Roadmap to a skill of your choice")
@@ -227,8 +237,10 @@ if option == "Roadmap to skills":
     if key is None:
         st.info("Enter your Gemini API key on your left please")
     else:
-        roadmap_skill = roadmap(skill, key)
-        st.write(roadmap_skill)
+        get_roadmap = st.button(label="Get Roadmap")
+        if get_roadmap:
+            roadmap_skill = roadmap(skill, key)
+            st.write(roadmap_skill)
 
 if option == "Networking events search":
     st.title("Networking event")
@@ -240,5 +252,7 @@ if option == "Interview prep":
     if key is None:
         st.info("Enter your Gemini API key on your left please")
     else:
-        questions = interview(job_desc, key)
-        st.write(questions)
+        get_interview = st.button(label="Get interview prep advice")
+        if get_interview:
+            questions = interview(job_desc, key)
+            st.write(questions)
