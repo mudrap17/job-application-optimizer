@@ -6,7 +6,7 @@
 + It helps you upskill and designs a roadmap along with interview prep
 + It gives you project suggestions according to the skills you want to develop
 
-Get out the live app at: https://job-application-optimizer.streamlit.app/
+Check out the live app at: https://job-application-optimizer.streamlit.app/
 
 Instructions to run the code on local machine:
 ```
